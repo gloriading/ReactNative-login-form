@@ -5,10 +5,10 @@ export default class LoginForm extends React.Component {
   render(){
     return(
         <View style={ styles.container }>
-          <StatusBar barStyle="light-content"/>
+          <StatusBar barStyle="dark-content"/>
           <TextInput
             placeholder="email"
-            placeholderTextColor="rgba(255,255,255,0.6)"
+            placeholderTextColor="rgba(0,0,0,0.6)"
             returnKeyType="next"
             keyboardType="email-address"
             autoCapitalize="none"
@@ -17,7 +17,7 @@ export default class LoginForm extends React.Component {
             style={ styles.input } />
           <TextInput
             placeholder="password"
-            placeholderTextColor="rgba(255,255,255,0.6)"
+            placeholderTextColor="rgba(0,0,0,0.6)"
             returnKeyType="send"
             secureTextEntry
             style={ styles.input }
@@ -46,11 +46,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10
   },
   buttonContainer: {
-    backgroundColor: 'rgb(250, 152, 58)',
+    backgroundColor: 'whitesmoke',
     paddingVertical: 10
   },
   button: {
-    color: 'white',
+    color: 'gold',
     fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center'
